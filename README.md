@@ -11,4 +11,7 @@
 
 </div>
 
-<h3>What is a NerdPrompt?</h3>
+## What is a NerdPrompt?
+
+## Terminal Preview
+![nerdPrompt](https://i.postimg.cc/WtcTJs1K/image-2022-09-18-142953896.png)
