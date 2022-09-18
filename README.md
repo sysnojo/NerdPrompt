@@ -12,6 +12,10 @@
 </div>
 
 ## What is a NerdPrompt?
+*NerdPrompt* is a basic costumizable command prompt program made in batch.<br>
+Users can edit and add any custom commands or custom ASCII images/Figlet fonts,<br>
+and a lot more! This is for an educational purposes for anyone that has<br>
+an interest on changing the view of their command prompt.
 
 ## Terminal Preview
 ![nerdPrompt](https://i.postimg.cc/WtcTJs1K/image-2022-09-18-142953896.png)
