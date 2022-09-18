@@ -1,4 +1,4 @@
-![dos](https://i.postimg.cc/tTJdnj19/flampc.png)
+![dos](https://i.postimg.cc/x8KBhM9x/flampc.png)
 
 <div align="center">
 <br>
