@@ -1,4 +1,4 @@
-![dos](https://i.postimg.cc/yNsY3RKh/kbf.png)
+![dos](https://i.postimg.cc/tTJdnj19/flampc.png)
 
 <div align="center">
 <br>
@@ -11,4 +11,4 @@
 
 </div>
 
-<h3>What is a Customizable Command Prompt?</h3>
+<h3>What is a NerdPrompt?</h3>
