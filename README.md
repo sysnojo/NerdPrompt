@@ -176,6 +176,14 @@ goto cmd
 pause
 ```
 
+## **Converting BAT to EXE**
+
+To convert file with an extension BAT, we have 3 options to do it:
+- *Converting BAT file to EXE via IExpress*
+- *Converting BAT Scripts to EXE with Bat to Exe Converter*
+- *Converting BAT Scripts to EXE via Advanced BAT to EXE Converter*
+
+You can look up the tutorial of how to do it in [Here!](https://adamtheautomator.com/bat-to-exe/)
 ## Terminal Preview
 ![nerdPrompt](https://i.postimg.cc/WtcTJs1K/image-2022-09-18-142953896.png)
 
