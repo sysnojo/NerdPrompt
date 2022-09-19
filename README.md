@@ -84,5 +84,100 @@ echo     `-----------------------------'
 echo.
 ```
 you can find these references from [This](asciiart.eu) or [Here!](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
+- ***About Colors***
+
+We often see colored terminal in linux/ubuntu/any distro console but rarely see one in Windows Command Prompt. It's possible to add any color in Command Prompt windows just like this script in the file we found, take a look below down here
+```batch
+:: a short explanation of colors
+:: this code uses an ANSI colors for the console
+
+:: STYLES
+echo [0m [0mReset[0m
+echo [1m [1mBold[0m
+echo [4m [4mUnderline[0m
+echo [7m [7mInverse[0m
+echo.
+
+:: NORMAL FOREGROUND COLORS
+echo [30mBlack[0m (black)
+echo [31mRed[0m
+echo [32mGreen[0m
+echo [33mYellow[0m
+echo [34mBlue[0m
+echo [35mMagenta[0m
+echo [36mCyan[0m
+echo [37mWhite[0m
+echo.
+
+:: NORMAL BACKGROUND COLORS
+echo [40mBlack[0m
+echo [41mRed[0m
+echo [42mGreen[0m
+echo [43mYellow[0m
+echo [44mBlue[0m
+echo [45mMagenta[0m
+echo [46mCyan[0m
+echo [47mWhite[0m (white)
+echo.
+
+:: STRONG FOREGROUND COLORS
+echo [90mWhite[0m
+echo [91mRed[0m
+echo [92mGreen[0m
+echo [93mYellow[0m
+echo [94mBlue[0m
+echo [95mMagenta[0m
+echo [96mCyan[0m
+echo [97mWhite[0m
+echo.
+
+:: STRONG BACKGROUND COLORS
+echo [100mBlack[0m
+echo [101mRed[0m
+echo [102mGreen[0m
+echo [103mYellow[0m
+echo [104mBlue[0m
+echo [105mMagenta[0m
+echo [106mCyan[0m
+echo [107mWhite[0m
+```
+
+An example of how to use it:
+```batch
+echo [97mMicrosoft Windows [Version 10.0.19042.631]
+echo (c) 2020 Microsoft Corporation. All rights reserved.
+echo Edited by WhoOwnThisDevice
+
+:: Note: this will print a Strong White Color for the rest of the text
+```
+
+An example of how to end the color:
+```batch
+echo.
+echo [103m[30mWARN[0m[97m: This is a Command Prompt run from someone's device, that's why it looks different.
+echo.
+
+:: Note: ending/resetting a color by typing a different foreground/background color, or typing the '[0m' to reset it to normal color
+```
+
+- ***Displaying Stuff***
+
+We can display any stuff we want, for example: current directory, current time, etc
+```batch
+:: to display the current directory we use %cd%
+
+echo.
+:cmd
+set /P CMD=%cd%^> 
+%CMD%
+echo.
+goto cmd
+pause
+```
+
 ## Terminal Preview
 ![nerdPrompt](https://i.postimg.cc/WtcTJs1K/image-2022-09-18-142953896.png)
+
+## Resources
+- [TutorialsPoint](https://www.tutorialspoint.com/batch_script/index.htm)
