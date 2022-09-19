@@ -17,5 +17,17 @@ Users can edit and add any custom commands or custom ASCII images/Figlet fonts,
 and a lot more! This is for an educational purposes for anyone that has
 an interest on changing the view of their command prompt.
 
+## Configuration
+This is some short explanation of the configuration included in the batch file of how<br>
+users can edit/modify their code as much as they like in the *NerdPrompt* source code.
+
+- ***Changing the title***
+
+To change the title of the Command Prompt Window, there's a simple script for it
+```batch
+rem to change the title
+title seeMD/Command ^Prompt
+```
+![prev1](https://i.postimg.cc/9Mg7FfZt/image-2022-09-19-100614919.png)
 ## Terminal Preview
 ![nerdPrompt](https://i.postimg.cc/WtcTJs1K/image-2022-09-18-142953896.png)
